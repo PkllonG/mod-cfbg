@@ -401,9 +401,9 @@ public:
         WORLDHOOK_ON_AFTER_CONFIG_LOAD
     }) { }
 
-    void OnAfterConfigLoad(bool /*Reload*/) override
+    void OnAfterConfigLoad(bool Reload) override
     {
-        sCFBG->LoadConfig();
+        sCFBG->LoadConfig(Reload);
     }
 };
 
