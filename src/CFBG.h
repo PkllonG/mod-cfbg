@@ -152,24 +152,24 @@ public:
 
     void LoadConfig(bool reload);
 
-    inline bool IsEnableSystem() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableSystem); }
-    inline bool IsEnableWGSystem() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableWGSystem); }
-    inline bool IsEnableWGTeamLock() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableWGTeamLock); }
-    inline bool IsEnableWGNativePriority() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableWGNativePriority); }
-    inline bool IsEnableWGReapplyOnResurrect() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableWGReapplyOnResurrect); }
-    inline std::string IsEnableWGSkipClasses() const { return _OutConfigData.GetConfigValue<std::string>(CrossFactionBGOutConfig::_IsEnableWGSkipClasses); }
-    inline bool IsEnableBalancedTeams() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableBalancedTeams); }
-    inline bool IsEnableBalanceClassLowLevel() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableBalanceClassLowLevel); }
-    inline uint32 GetBalanceClassMinLevel() const { return _OutConfigData.GetConfigValue<uint32>(CrossFactionBGOutConfig::_balanceClassMinLevel); }
-    inline uint32 GetBalanceClassMaxLevel() const { return _OutConfigData.GetConfigValue<uint32>(CrossFactionBGOutConfig::_balanceClassMaxLevel); }
-    inline uint32 GetBalanceClassLevelDiff() const { return _OutConfigData.GetConfigValue<uint32>(CrossFactionBGOutConfig::_balanceClassLevelDiff); }
-    inline bool IsEnableEvenTeams() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableEvenTeams); }
-    inline uint32 EvenTeamsMaxPlayersThreshold() const { return _OutConfigData.GetConfigValue<uint32>(CrossFactionBGOutConfig::_EvenTeamsMaxPlayersThreshold); }
-    inline bool IsEnableAvgIlvl() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableAvgIlvl); }
-    inline bool IsEnableBalanceTeamsOnEntry() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableBalanceTeamsOnEntry); }
-    inline uint32 GetMaxPlayersCountInGroup() const { return _OutConfigData.GetConfigValue<uint32>(CrossFactionBGOutConfig::_MaxPlayersCountInGroup); }
-    inline bool IsEnableResetCooldowns() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_IsEnableResetCooldowns); }
-    inline bool RandomizeRaces() const { return _OutConfigData.GetConfigValue<bool>(CrossFactionBGOutConfig::_randomizeRaces); }
+    inline bool IsEnableSystem() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableSystem); }
+    inline bool IsEnableWGSystem() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableWGSystem); }
+    inline bool IsEnableWGTeamLock() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableWGTeamLock); }
+    inline bool IsEnableWGNativePriority() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableWGNativePriority); }
+    inline bool IsEnableWGReapplyOnResurrect() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableWGReapplyOnResurrect); }
+    inline std::string IsEnableWGSkipClasses() const { return _OutConfigData.GetConfigValue<std::string>(CFBGOutConfig::_IsEnableWGSkipClasses); }
+    inline bool IsEnableBalancedTeams() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableBalancedTeams); }
+    inline bool IsEnableBalanceClassLowLevel() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableBalanceClassLowLevel); }
+    inline uint32 GetBalanceClassMinLevel() const { return _OutConfigData.GetConfigValue<uint32>(CFBGOutConfig::_balanceClassMinLevel); }
+    inline uint32 GetBalanceClassMaxLevel() const { return _OutConfigData.GetConfigValue<uint32>(CFBGOutConfig::_balanceClassMaxLevel); }
+    inline uint32 GetBalanceClassLevelDiff() const { return _OutConfigData.GetConfigValue<uint32>(CFBGOutConfig::_balanceClassLevelDiff); }
+    inline bool IsEnableEvenTeams() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableEvenTeams); }
+    inline uint32 EvenTeamsMaxPlayersThreshold() const { return _OutConfigData.GetConfigValue<uint32>(CFBGOutConfig::_EvenTeamsMaxPlayersThreshold); }
+    inline bool IsEnableAvgIlvl() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableAvgIlvl); }
+    inline bool IsEnableBalanceTeamsOnEntry() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableBalanceTeamsOnEntry); }
+    inline uint32 GetMaxPlayersCountInGroup() const { return _OutConfigData.GetConfigValue<uint32>(CFBGOutConfig::_MaxPlayersCountInGroup); }
+    inline bool IsEnableResetCooldowns() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_IsEnableResetCooldowns); }
+    inline bool RandomizeRaces() const { return _OutConfigData.GetConfigValue<bool>(CFBGOutConfig::_randomizeRaces); }
 
     uint32 GetBGTeamAverageItemLevel(Battleground* bg, TeamId team);
     uint32 GetBGTeamSumPlayerLevel(Battleground* bg, TeamId team);
